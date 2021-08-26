@@ -39,4 +39,8 @@ public class Persona {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + "]";
 	}	
+	
+	public void saludar() {
+		System.out.println("Hola a todos!");
+	}
 }
