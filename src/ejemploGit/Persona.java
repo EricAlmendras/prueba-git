@@ -35,5 +35,7 @@ public class Persona {
 		this.dni = dni;
 	}
 	
-	
+	public void saludar() {
+		System.out.println("Hola a todos!");
+	}
 }
